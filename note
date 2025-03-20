@@ -1,0 +1,5 @@
+// option edit biasanya di gunakan di level
+echo isset($_GET['edit'] ? ($row['id_level']== $item['id']) ? 'selected' :'' : '')
+
+//readonly
+perintah di form ini untuk menampilkan hanya bisa di baca saja
